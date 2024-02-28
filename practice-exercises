@@ -1,0 +1,24 @@
+//Exercise 1
+var favColor = prompt("What's your favorite color? (ex. blue)");
+console.log(`Your favorite color is ${favColor}.`);
+
+//Exercise 2
+var firstName = prompt("What's your name? (ex. Mary)");
+var birthYear = Number(prompt("What year were you born in? (ex. 1977)"));
+console.log(`${firstName}, you are ${2024 - birthYear} years old.`);
+
+//Exercise 3
+var hourlyWage = Number(
+  prompt("What's your hourly wage? (ex. 10 for $10 per hour)")
+);
+var hoursWorkedAWeek = Number(
+  prompt("How many hours did you work in a week? (ex. 40)")
+);
+console.log(
+  `Your weekly salary is $${(hourlyWage * hoursWorkedAWeek).toFixed(2)}.`
+);
+
+/* Examples of results in console:
+Your favorite color is red.
+Al, you are 42 years old.
+Your weekly salary is $1600.00. */
